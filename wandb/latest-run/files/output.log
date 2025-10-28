@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/data/yzhou/rna_diffusion/rnadiffusion/train.py", line 57, in <module>
+    train()
+    ~~~~~^^
+  File "/data/yzhou/rna_diffusion/rnadiffusion/train.py", line 19, in train
+    with open('encoded_sequences_and_file_names.pkl', 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'encoded_sequences_and_file_names.pkl'
