@@ -1,0 +1,80 @@
+{
+  "os": "Linux-5.15.0-130-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.13.2",
+  "startedAt": "2025-04-15T06:12:43.099689Z",
+  "program": "/data/yzhou/rna_diffusion/rnadiffusion/train.py",
+  "codePath": "train.py",
+  "email": "2422081335@qq.com",
+  "root": "/data/yzhou/rna_diffusion/rnadiffusion",
+  "host": "server-Rack-Server",
+  "executable": "/data/yzhou/software/miniconda3/envs/yzhou_rnadiffusion/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 192,
+  "cpu_count_logical": 384,
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "981851029504",
+      "used": "103937097728"
+    }
+  },
+  "memory": {
+    "total": "1622968012800"
+  },
+  "cpu": {
+    "count": 192,
+    "countLogical": 384
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.7"
+}
