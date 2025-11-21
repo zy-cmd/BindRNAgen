@@ -12,7 +12,7 @@ Prerequisites
 
 • Core Dependencies:
 
-◦ Deep Learning Frameworks: PyTorch 1.10+ or TensorFlow 2.8+
+◦ Deep Learning Frameworks: PyTorch 1.10+ 
 
 ◦ Data Processing: numpy 1.21+, pandas 1.3+, biopython 1.79+
 
@@ -22,13 +22,12 @@ Prerequisites
 
 Quick Installation
 
-Method 1: Install via pip
 # Clone the repository
-'''
+
 git clone https://github.com/zy-cmd/BindRNAgen.git
 cd BindRNAgen
 pip install -r requirements.txt
-'''
+
 1. Data Preparation
 
 • Prepare input files in FASTA or CSV format, including target sequences (e.g., protein binding partners) and constraint parameters.
