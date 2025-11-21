@@ -35,21 +35,16 @@ Run the main script with default parameters to generate RNA sequences:
 ```
 python sample_stable.py
 ```
-4. Model Training/Fine-Tuning
+4. Model Training
 
-Fine-tune the pre-trained model with your own dataset:
+Train the model with your own dataset:
 ```
-python bindrnagen/train.py \
-  --train_data data/train_dataset.csv \
-  --val_data data/val_dataset.csv \
-  --model_type transformer \  # Choose model type: transformer/gan
-  --epochs 50 \
-  --batch_size 8 \
-  --learning_rate 1e-4 \
-  --output_model_path models/fine_tuned_model.pth
+python train_stable_diffusion.py
 ```
+5. VAE Model Training
+Pretrain the VAE model
 
 # Output Description
 
-• Generated Sequences: generated_sequences.csv containing RNA sequences, GC content, predicted binding affinity, and structural scores.
+• Generated Sequences: generated_sequences.fa containing RNA sequences, GC content, predicted binding affinity, and structural scores.
 
