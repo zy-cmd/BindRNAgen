@@ -1,4 +1,4 @@
-BindRNAgen: Protein-binding RNA sequence generation using latent diffusion model
+# BindRNAgen: Protein-binding RNA sequence generation using latent diffusion model
 
 Project Overview
 
