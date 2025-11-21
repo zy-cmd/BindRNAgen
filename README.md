@@ -49,5 +49,4 @@ python train_vae.py
 ```
 # Output Description
 
-• Generated Sequences: generated_sequences.fa containing RNA sequences, GC content, predicted binding affinity, and structural scores.
-
+• Generated Sequences: generated_sequences.fa containing RNA sequences.
