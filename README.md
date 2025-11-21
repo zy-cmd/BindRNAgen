@@ -1,9 +1,6 @@
 # BindRNAgen: Protein-binding RNA sequence generation using latent diffusion model
 
-Project Overview
-
-BindRNAgen is an advanced deep learning tool tailored for RNA sequence design, leveraging state-of-the-art neural network architectures (e.g., Transformer, GAN) to efficiently generate RNA sequences with predefined binding affinity, structural stability, or function-specific properties. Designed for computational biology and bioinformatics research, this tool accelerates experimental design and validation in RNA-targeted drug development, gene regulation mechanism studies, and related fields.
-
+BindRNAgen is an advanced deep learning tool tailored for RNA sequence design, built on a diffusion model architecture. 
 Installation Guide
 
 Prerequisites
