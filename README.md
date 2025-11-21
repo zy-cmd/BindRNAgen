@@ -1,7 +1,7 @@
 # BindRNAgen: Protein-binding RNA sequence generation using latent diffusion model
 
 BindRNAgen is an advanced deep learning tool tailored for RNA sequence design, built on a diffusion model architecture. 
-#Installation Guide
+# Installation Guide
 
 Prerequisites
 
@@ -54,7 +54,7 @@ python bindrnagen/train.py \
   --output_model_path models/fine_tuned_model.pth
 ```
 
-Output Description
+# Output Description
 
 • Generated Sequences: generated_sequences.csv containing RNA sequences, GC content, predicted binding affinity, and structural scores.
 
