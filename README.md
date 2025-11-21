@@ -17,7 +17,7 @@ Prerequisites
 
 ◦ Visualization: matplotlib 3.4+, seaborn 0.11+
 
-Quick Installation
+# Quick Start
 
 1. Clone the repository
 ```
