@@ -33,12 +33,7 @@ Please download the data and model checkpoint from Google Drive link and then pu
 
 Run the main script with default parameters to generate RNA sequences:
 ```
-python bindrnagen/generate.py \
-  --input data/input.csv \
-  --output results/generated_sequences/ \
-  --model_path models/pretrained_transformer.pth \
-  --num_samples 10 \  # Number of sequences to generate per target
-  --batch_size 4
+python sample_stable.py
 ```
 4. Model Training/Fine-Tuning
 
