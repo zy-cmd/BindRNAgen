@@ -24,33 +24,11 @@ Quick Installation
 
 Method 1: Install via pip
 # Clone the repository
+'''
 git clone https://github.com/zy-cmd/BindRNAgen.git
 cd BindRNAgen
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Install ViennaRNA (required for structure prediction)
-# For Ubuntu/Debian
-sudo apt-get install viennarna
-# For macOS
-brew install viennarna
-# For Windows
-# Download installer from https://www.tbi.univie.ac.at/RNA/#download
-Method 2: Install via Conda
-# Create a new conda environment
-conda create -n bindrnagen python=3.9
-conda activate bindrnagen
-
-# Clone the repository
-git clone https://github.com/zy-cmd/BindRNAgen.git
-cd BindRNAgen
-
-# Install dependencies
-conda install -c conda-forge torch numpy pandas biopython viennarna matplotlib seaborn
-pip install -r requirements.txt
-Usage Instructions
-
+'''
 1. Data Preparation
 
 • Prepare input files in FASTA or CSV format, including target sequences (e.g., protein binding partners) and constraint parameters.
