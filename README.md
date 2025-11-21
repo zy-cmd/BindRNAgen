@@ -23,11 +23,11 @@ Prerequisites
 Quick Installation
 
 # Clone the repository
-
+```
 git clone https://github.com/zy-cmd/BindRNAgen.git
 cd BindRNAgen
 pip install -r requirements.txt
-
+```
 1. Data Preparation
 
 • Prepare input files in FASTA or CSV format, including target sequences (e.g., protein binding partners) and constraint parameters.
