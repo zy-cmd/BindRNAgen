@@ -52,6 +52,7 @@ python train_diffusion.py \
 
 ```
 5. VAE Model Training
+
 Pretrain the VAE model
 
 ```
@@ -66,3 +67,7 @@ python train_vae.py \
 # Output Description
 
 • Generated Sequences: generated_sequences.fa containing RNA sequences.
+
+# License
+This project is licensed under the  [CC-BY-NC-4.0](https://github.com/zy-cmd/BindRNAgen/blob/main/LICENSE).
+
