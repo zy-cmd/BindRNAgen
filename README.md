@@ -55,7 +55,13 @@ python train_diffusion.py \
 Pretrain the VAE model
 
 ```
-python train_vae.py
+python train_vae.py \
+    --epochs 100 \
+    --kl_beta 0.01 \
+    --gpu_id "7" \
+    --wandb_run_name "beta_0.01_run" \
+    --data_path "/path/to/encode_data" \ 
+    --final_model_save_path "path/to/saved_model_path" 
 ```
 # Output Description
 
