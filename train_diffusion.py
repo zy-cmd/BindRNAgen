@@ -5,9 +5,9 @@ import pickle
 import wandb
 
 from accelerate import Accelerator
-from dataloader_protein import load_data 
-from diffusion import Diffusion
-from unet import UNet 
+from diffusion.dataloader_protein import load_data 
+from diffusion.diffusion import Diffusion
+from diffusion.unet import UNet 
 from train_util import TrainLoopStable 
 from vae.model import VAE
 def train(args):

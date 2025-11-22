@@ -2,8 +2,8 @@ import torch
 import os
 import argparse
 import numpy as np
-from unet import UNet
-from diffusion import Diffusion
+from diffusion.unet import UNet
+from diffusion.diffusion import Diffusion
 from vae.model import VAE 
 
 def decode_one_hot_to_sequence(one_hot_tensor, alphabet):
