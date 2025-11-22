@@ -43,7 +43,13 @@ python generate.py \
 
 Train the model with your own dataset:
 ```
-python train_stable_diffusion.py
+python train_diffusion.py \
+    --gpu_id "6" \
+    --data_path "/path/to/encode_data" \
+    --vae_model_path "/path/to/pretrained_vae_model_path" \
+    --epochs 100 \
+    --model_name "/path/model_name"
+
 ```
 5. VAE Model Training
 Pretrain the VAE model
