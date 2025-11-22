@@ -1,21 +1,19 @@
 # BindRNAgen: Protein-binding RNA sequence generation using latent diffusion model
 
 BindRNAgen is an advanced deep learning tool tailored for RNA sequence design, built on a diffusion model architecture. 
+
 # Installation Guide
 
 Prerequisites
 
-• Python 3.8 or higher
+• Python 3.13 or higher
 
 • Core Dependencies:
 
-◦ Deep Learning Frameworks: PyTorch 1.10+ 
+◦ Deep Learning Frameworks: PyTorch 2.60+ 
 
-◦ Data Processing: numpy 1.21+, pandas 1.3+, biopython 1.79+
+◦ Data Processing: numpy 2.1.2+, pandas  2.2.3+, biopython 1.85+
 
-◦ Structure Prediction: ViennaRNA 2.5+
-
-◦ Visualization: matplotlib 3.4+, seaborn 0.11+
 
 # Quick Start
 
