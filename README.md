@@ -52,6 +52,7 @@ python train_diffusion.py \
 
 ```
 5. VAE Model Training
+
 Pretrain the VAE model
 
 ```
