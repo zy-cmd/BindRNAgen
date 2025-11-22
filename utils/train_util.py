@@ -8,9 +8,9 @@ from torch.optim import Adam
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from dataloader_protein import SequenceDataset
-from dataloader_protein import SequenceLucaDataset
-from dataloader_protein import SequenceStable
+from dataloader import SequenceDataset
+from dataloader import SequenceLucaDataset
+from dataloader import SequenceStable
 from utils.utils import EMA
 
 

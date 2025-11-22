@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch
 from memory_efficient_attention_pytorch import Attention as EfficientAttention
 
-from layers import *
+from diffusion.layers import *
 
 class UNet(nn.Module):
     def __init__(
