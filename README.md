@@ -27,7 +27,7 @@ conda env create -f environment.yml
 ```
 2. Data Preparation
 
-Please download the data and model checkpoint from Google Drive link and then put all files into the current folder.
+Please download model checkpoint from [Google Drive](https://drive.google.com/drive/folders/1Zpr_9DvyUMfwNhBHo27sUxhjCYPLk_gp) link and then put all files into the current folder.
 
 3. Quick Start (Sequence Generation)
 
