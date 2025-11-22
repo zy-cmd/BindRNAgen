@@ -23,7 +23,7 @@ Prerequisites
 ```
 git clone https://github.com/zy-cmd/BindRNAgen.git
 cd BindRNAgen
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 2. Data Preparation
 
