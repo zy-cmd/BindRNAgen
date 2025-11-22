@@ -33,7 +33,11 @@ Please download the data and model checkpoint from Google Drive link and then pu
 
 Run the main script with default parameters to generate RNA sequences:
 ```
-python sample_stable.py
+python generate.py \
+    --total_samples 2000 \
+    --generation_batch_size 1000 \
+    --gpu_id "6" \
+    --output_dir "/path/to/my/new/output"
 ```
 4. Model Training
 
