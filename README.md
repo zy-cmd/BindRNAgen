@@ -2,6 +2,8 @@
 
 BindRNAgen is an advanced deep learning tool tailored for RNA sequence design, built on a diffusion model architecture. 
 
+<img width="14417" height="4700" alt="image" src="https://github.com/user-attachments/assets/f06ef918-0663-4624-b844-38e2b634fa49" />
+
 # Installation Guide
 
 Prerequisites
